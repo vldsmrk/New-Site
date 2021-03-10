@@ -688,3 +688,19 @@ section-2{
     top: 1px;
     border-radius: 0px;
 }
+
+.slot-2{
+    position: absolute;
+    height: 432px;
+    left: 66.58%;
+    right: 0.08%;
+    top: 0px;   
+}
+
+.slot-3{
+    position: absolute;
+    height: 432px;
+    left: 33.33%;
+    right: 33.33%;
+    top: 0px;
+}
