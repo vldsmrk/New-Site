@@ -1,9 +1,12 @@
-.header {
+header {
     position: absolute;
     height: 61px;
     left: 0%;
     right: 0%;
     top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 14px 44px rgba(84, 84, 84, 0.25);
+    
 }
 
 .acc-f {
@@ -14,6 +17,16 @@
     top: 8.5px;
 }
 
+.korzinka{
+    position: absolute;
+    height: 24px;
+    left: 84.7%;
+    right: -0.01%;
+    top: 10.5px;
+    
+    background: url("img/korzina.png");
+    border-radius: 0px;    
+}
 .acc {
     position: absolute;
     height: 44px;
@@ -95,13 +108,14 @@
 .start-text {
     position: absolute;
     height: 18px;
+    width: 170px;
     left: 0%;
     right: 0.58%;
     top: 0px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 13.5px;
     line-height: 18px;
     /* identical to box height, or 129% */
     letter-spacing: 1.96px;
@@ -195,6 +209,370 @@
     left: 1.67%;
     right: 92.43%;
     top: 19px;
-    background: url();
     border-radius: 0px;
+}
+
+section-1{
+    position: absolute;
+    z-index: -1;
+    height: 750px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    
+    background: #F2AE4D;
+    border-radius: 0px;    
+}
+
+.korob{
+    position: absolute;
+    height: 504px;
+    width: 504px;
+    left: 65%;
+    right: 0%;
+    top: 148px;    
+}
+
+.discribe{
+    position: absolute;
+    height: 339px;
+    left: 8.33%;
+    right: 56.94%;
+    top: 205.5px;   
+}
+
+.big-text{
+    position: absolute;
+    height: 168px;
+    width: 480px;
+    left: 0%;
+    right: 4%;
+    top: 20.5px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    
+    color: #011F3A;
+}
+
+.small-text{
+    position: absolute;
+    height: 48px;
+    width: 277px;
+    left: 0%;
+    right: 44.6%;
+    top: 221.5px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    /* or 160% */
+    
+    
+    color: #011F3A;
+    
+}
+
+.bttns-your-design{
+    position: absolute;
+    width: 228px;
+    height: 56px;   
+    left: 0%;
+    right: 54.4%;
+    top: 283.5px;
+    background: #3D5675;
+    border-radius: 44px;
+}
+
+.your-design-text{
+    position: absolute;
+    width: 170px;
+    height: 18px;
+    left: 12.72%;
+    right: 12.72%;
+    top: 19px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    
+    letter-spacing: 1.96px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;  
+}
+
+fotter-section-1{
+    position: absolute;
+    height: 120px;
+    left: 0%;
+    right: 0%;
+    top: 750px;    
+}
+
+.shopify{
+    position: absolute;
+    height: 80px;
+    left: 8.33%;
+    right: 74.38%;
+    top: 20px;
+    
+}
+
+.shopify-logo{
+    position: absolute;
+    height: 80px;
+    left: 0%;
+    right: 42.97%;
+    top: 0px;
+    border-radius: 0px;  
+}
+
+.shopify-text-frame{
+    position: absolute;
+    height: 38px;
+    left: 63.45%;
+    right: 0%;
+    top: 21px;
+    
+}
+
+.shopify-text{
+    position: absolute;
+    height: 38px;
+    left: 0%;
+    right: 10.99%;
+    top: 0px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    /* or 127% */
+    
+    letter-spacing: 0.6px;
+    
+    color: #A1A1A1;
+}
+
+.amazon{
+    position: absolute;
+    height: 80px;
+    left: 45.45%;
+    right: 42.6%;
+    top: 20px;    
+}
+
+.amazon-logo{
+    position: absolute;
+    height: 80px;
+    left: 0.29%;
+    right: 53.2%;
+    top: 0px;
+    border-radius: 0px;    
+}
+
+.amazon-text-frame{
+    position: absolute;
+    height: 38px;
+    left: 56.1%;
+    right: -0.29%;
+    top: 21px;   
+}
+
+.amazon-text{
+    position: absolute;
+    height: 38px;
+    left: 0%;
+    right: 11.84%;
+    top: 0px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    /* or 127% */
+    
+    letter-spacing: 0.6px;
+    
+    color: #A1A1A1;
+}
+
+.fsc{
+    position: absolute;
+    height: 80px;
+    left: 77.22%;
+    right: 8.33%;
+    top: 20px;
+}
+
+.fsc-logo{
+    position: absolute;
+    height: 80px;
+    left: 0%;
+    right: 39.9%;
+    top: 0px;
+    border-radius: 0px;    
+}
+
+.fsc-text-frame{
+    position: absolute;
+    height: 38px;
+    left: 67.79%;
+    right: 0%;
+    top: 21px;
+}
+
+.fsc-text{
+    position: absolute;
+    height: 38px;
+    left: 0%;
+    right: 10.45%;
+    top: 0px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    /* or 127% */
+    
+    letter-spacing: 0.6px;
+    
+    color: #A1A1A1;
+}
+
+section-2{
+    position: absolute;
+    height: 1162px;
+    left: 0%;
+    right: 0%;
+    top: 870px;
+    background: #EEEEEE;      
+}
+
+.under-gallery{
+    position: absolute;
+    height: 44px;
+    left: 36.61%;
+    right: 36.61%;
+    top: 1068.31px;    
+}
+
+.text-need{
+    position: absolute;
+    width: 212px;
+    height: 24px;
+    left: -0.05%;
+    right: 45.07%;
+    top: 9.69px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 160% */
+    
+    
+    color: #A1A1A1;
+}
+
+.shop-text-frame{
+    position: absolute;
+    width: 158px;
+    height: 44px;
+    left: 59.08%;
+    right: -0.05%;
+    top: -0.31px;
+    background: #FFFFFF;
+    border-radius: 44px;
+}
+
+.shop-text{
+    position: absolute;
+    height: 18px;
+    left: 15.82%;
+    right: 15.82%;
+    top: 13px;
+    align-items: center;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    
+    letter-spacing: 1.96px;
+    text-transform: uppercase;
+    
+    color: #3D5675;
+}
+
+.section-2-header{
+    position: absolute;
+    height: 44px;
+    left: 8.33%;
+    right: 8.33%;
+    top: 57px;
+}
+
+.text-products{
+    position: absolute;
+    height: 38px;
+    left: 0%;
+    right: 65.42%;
+    top: 0px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    /* identical to box height */
+    
+    
+    color: #011F3A;
+}
+
+.browse-text-frame{
+    position: absolute;
+    height: 44px;
+    left: 79.42%;
+    right: 0%;
+    top: 0px;   
+    background: #3D5675;
+    border-radius: 44px; 
+}
+
+.browse-text{
+    position: absolute;
+    height: 18px;
+    left: 10.12%;
+    right: 10.12%;
+    top: 13px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    
+    text-align: center;
+    letter-spacing: 1.96px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
 }
